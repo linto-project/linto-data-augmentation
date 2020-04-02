@@ -1,0 +1,28 @@
+# Program parameters
+
+# CoreNLPServer parameters
+#download corenlp from
+#http://nlp.stanford.edu/software/stanford-corenlp-full-2018-10-05.zip
+#download french model from
+#http://nlp.stanford.edu/software/stanford-french-corenlp-2018-10-05-models.jar
+#CORE_NLP_DIR = ./resources/coreNLP
+CORE_NLP_PORT = 9000
+CORE_NLP_LANG = french
+
+# glawi parameters
+#download glawi dictionary
+#from http://redac.univ-tlse2.fr/lexiques/glawi/2016-05-18/GLAWI_FR_work_D2015-12-26_R2016-05-18.xml.bz2
+#GLAWI_BZ2 = ./resources/GLAWI.xml.bz2
+GLAWI_PKL = ./resources/glawi.pkl
+
+# lexicons directory
+LEXICON_DIR = ./resources/lexicons
+
+# application port
+DATA_AUGMENTATION_PORT = 5000
+
+# application password
+DATA_AUGMENTATION_PASSWORD = NO_PASSWORD
+
+# spacy model path
+SPACY_MODEL = ./resources/spacy/fr_core_news_sm-2.1.0
